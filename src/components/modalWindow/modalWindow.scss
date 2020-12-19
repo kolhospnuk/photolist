@@ -1,0 +1,68 @@
+
+.modal {
+  justify-content: space-between;
+  position: absolute;
+  width: 619px;
+  height: 425px;
+  left: 74px;
+  top: 181px;
+  background-color: white;
+  border: 2px solid gray;
+  &-window {
+    margin-left: 30px;
+    &-img {
+      width: 331px;
+      height: 205px;
+      margin-bottom: 10px;
+    }
+    margin-top: 30px;
+    &-form {
+      input {
+        display: block;
+        width: 332px;
+        height: 30px;
+        margin-top: 20px;
+        background: #FFFFFF;
+        border: 1px solid #CCCCCC;
+        box-sizing: border-box;
+        border-radius: 3px;
+        padding-left: 10px;
+      }
+      button {
+        display: block;
+        width: 332px;
+        height: 30px;
+        margin-top: 20px;
+        background: #4997D0;
+        border-radius: 3px;
+      }
+    }
+  }
+  &-comment {
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  &-cross {
+    position: absolute;
+    top: 16px;
+    right: 30px;
+    span {
+      position: fixed;
+      display: block;
+      height: 4px;
+      width: 25px;
+      background-color: #3c3a3a;
+      margin-bottom: -4px;
+    }
+    span:first-child {
+      transform: rotate(-45deg);
+    }
+    span:nth-child(2) {
+      transform: rotate(45deg);
+    }
+  }
+}
+
+.open {
+  display: flex;
+}

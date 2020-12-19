@@ -1,0 +1,21 @@
+
+.photos {
+  width: 750px;
+  margin: 0 auto;
+  &-list {
+    list-style: none;
+    padding: 0;
+    &-item {
+      display: inline-block;
+      padding-top: 30px;
+      padding-right: 20px;
+      img {
+        width: 230px;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  
+}
